@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/CSS/estilo.css">
+</head>
+<body>
+    <form class="form">
+        <p class="title">Register </p>
+        <p class="message">Sign up now and get full access to our app. </p>
+            <div class="flex">
+            <label>
+                <input placeholder="" id="nome" type="text" class="input">
+                <span>Firstname</span>
+            </label>
+    
+            <label>
+                <input placeholder="" id="sobrenome" type="text" class="input">
+                <span>Lastname</span>
+            </label>
+        </div>  
+                
+        <label>
+            <input placeholder="" id="email" type="email" class="input">
+            <span>Email</span>
+        </label> 
+            
+        <label>
+            <input placeholder="" id="senha" type="password" class="input">
+            <span>Password</span>
+        </label>
+        <label>
+            <input placeholder="" id="confirmar" type="password" class="input">
+            <span>Confirm password</span>
+        </label>
+        <button class="submit" id="botao" onclick="verificar()">Submit</button>
+        <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
+    </form>
+</body>
+<script src="/js/codigologin.js"></script>
+</html>
